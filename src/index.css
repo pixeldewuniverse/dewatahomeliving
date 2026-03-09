@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;500;600;700&family=Carlito:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dewata-gold: #CBAF7A;
+  --bali-earth-brown: #3E2C22;
+  --sandstone-beige: #F5EEE6;
+  --emerald-green: #005C3C;
+  --dark-black: #111111;
+}
+
+@layer base {
+	body {
+		@apply font-body text-[15px] md:text-base leading-relaxed text-white/90;
+		background-color: #020202;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		@apply font-cormorant;
+	}
+}
+.text-stroke {
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.text-stroke-sub {
+  -webkit-text-stroke: 0.6px rgb(255, 255, 255);
+}
+
+/* Tekanan visual untuk teks navbar transparan */
+.nav-text-strong {
+  color: #ffffff;
+  -webkit-text-stroke: 0.4px rgba(0, 0, 0, 0.85);
+  text-shadow:
+    0 3px 10px rgba(0, 0, 0, 0.7),
+    0 1px 3px rgba(0, 0, 0, 0.65);
+}
+.nav-title-stroke {
+  -webkit-text-stroke: 0.25px rgba(0, 0, 0, 0.65);
+  text-shadow:
+    0 2px 6px rgba(0,0,0,0.55),
+    0 1px 3px rgba(0,0,0,0.45);
+}
+.nav-subtitle-stroke {
+  -webkit-text-stroke: 0.15px rgba(0,0,0,0.55);
+  text-shadow:
+    0 2px 5px rgba(0,0,0,0.45),
+    0 1px 2px rgba(0,0,0,0.35);
+}
+
+/* Supaya logo tetap kebaca di background terang/gelap */
+.nav-logo-strong {
+	filter:
+		drop-shadow(0 4px 12px rgba(0, 0, 0, 0.8)) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.65));
+}
+
+.nav-logo-bg {
+  background: radial-gradient(
+    circle at center,
+    rgba(0,0,0,0.45) 0%,
+    rgba(0,0,0,0.15) 30%,
+    transparent 55%
+  );
+}
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-6 sm:px-8;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-shadow-hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.glass-card {
+    @apply bg-white/5 backdrop-blur-sm border border-white/10;
+}
+
+@layer utilities {
+	.heading-hero {
+			@apply font-cormorant leading-tight text-[var(--dewata-gold)];
+			text-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
+			font-size: clamp(40px, 6vw, 120px);
+			/* langsung pakai CSS biasa */
+		}
+
+	.heading-section {
+		@apply font-cormorant text-4xl md:text-5xl text-[var(--dewata-gold)];
+	}
+
+	.heading-sub {
+		@apply font-cormorant text-xl md:text-2xl;
+	}
+}
