@@ -4,12 +4,12 @@ import Hero from '@/components/Hero';
 
 const heroData = {
   '/': {
-    image: 'https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/Portfolio/villa%20canggu/villa%20canggu/5.jpg',
+    image: 'https://raw.githubusercontent.com/pixeldewuniverse/DHL/main/assets/Portfolio/Amed/2.jpeg',
     title: 'A Place to Belong. A Style to Remember.',
     subtitle: 'Creating homes that feel like they\'re truly yours.',
   },
   '/about': {
-    image: 'https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/Portfolio/villa%20canggu/villa%20canggu/6.jpg',
+    image: 'https://raw.githubusercontent.com/pixeldewuniverse/DHL/main/assets/Portfolio/Amed/3.jpeg',
     title: 'About Dewata Home Living',
     subtitle: 'We build value, not just buildings.',
   },
@@ -50,5 +50,6 @@ const PageHeroByRoute = ({ title, subtitle, image }) => {
 
   return <Hero image={finalImage} title={finalTitle} subtitle={finalSubtitle} />;
 };
+
 
 export default PageHeroByRoute;
