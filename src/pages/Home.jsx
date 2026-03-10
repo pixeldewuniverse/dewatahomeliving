@@ -39,7 +39,6 @@ const Home = () => {
     { name: "Damara Village", logo_url: "https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/Client%20DHL/2.png" },
     { name: "Natadesa", logo_url: "https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/Client%20DHL/3.png" },
     { name: "Greenwoods & Jimbaran Hijau", logo_url: "https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/Client%20DHL/4.png" },
-    { name: "IKN", logo_url: "https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/Client%20DHL/IKN.jpg" },
     { name: "Cibubur Golf", logo_url: "https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/Client%20DHL/cibubur.png" },
     { name: "Darmo Golf", logo_url: "https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/Client%20DHL/darmogolf.jpeg" },
     { name: "Deltamas", logo_url: "https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/Client%20DHL/deltamas.jpg" },
