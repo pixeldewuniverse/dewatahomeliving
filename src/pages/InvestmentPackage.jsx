@@ -132,7 +132,7 @@ const InvestmentPackage = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-[var(--emerald-green)]">
+      /* <section className="py-16 bg-[var(--emerald-green)]">
         <Tabs defaultValue="calculator" className="w-full">
           <TabsList className="grid w-full grid-cols-2 md:max-w-2xl mx-auto mb-12 h-auto bg-transparent border-b border-[#CBAF7A]/20 p-0 rounded-none">
             <TabsTrigger value="calculator" className={`py-3 text-lg transition-all text-white/80 hover:text-[var(--dewata-gold)] data-[state=active]:text-[var(--dewata-gold)] data-[state=active]:shadow-none data-[state=active]:bg-transparent data-[state=active]:border-b-2 data-[state=active]:border-[#CBAF7A] rounded-none`}>ROI Calculator</TabsTrigger>
@@ -168,7 +168,7 @@ const InvestmentPackage = () => {
                 </p>
               </div>
             </div>
-          </TabsContent>
+          </TabsContent> */
           
           <TabsContent value="gallery" className="container-custom">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
