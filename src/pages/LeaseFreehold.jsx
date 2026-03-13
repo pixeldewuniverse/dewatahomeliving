@@ -20,9 +20,9 @@ const LeaseFreehold = () => {
   ];
 
   const listings = [
-    {"type":"Leasehold","title":"Canggu Strategic Location","area":"5 are","price":"IDR 800M","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/no image.svg", "map_link": "#"},
-    {"type":"Freehold","title":"Sanur Beachside","area":"8 are","price":"IDR 1.2B","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/no image.svg", "map_link": "#"},
-    {"type":"Leasehold","title":"Ubud Rice Field View","area":"12 are","price":"IDR 600M","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/no image.svg", "map_link": "#"}
+    {"type":"Leasehold","title":"Canggu Strategic Location","area":"5 are","price":"IDR 800M","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/No image.svg", "map_link": "#"},
+    {"type":"Freehold","title":"Sanur Beachside","area":"8 are","price":"IDR 1.2B","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/No image.svg", "map_link": "#"},
+    {"type":"Leasehold","title":"Ubud Rice Field View","area":"12 are","price":"IDR 600M","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/No image.svg", "map_link": "#"}
   ];
 
   const filteredListings = activeFilter === 'all' 
