@@ -4,7 +4,7 @@ import Hero from '@/components/Hero';
 
 const heroData = {
   '/': {
-    image: 'https://raw.githubusercontent.com/pixeldewuniverse/DHL/main/assets/Portfolio/Amed/2.jpeg',
+    image: 'https://raw.githubusercontent.com/pixeldewuniverse/DHL/main/assets/hero-villa-bright.png',
     title: 'A Place to Belong. A Style to Remember.',
     subtitle: 'Creating homes that feel like they\'re truly yours.',
   },
@@ -53,3 +53,4 @@ const PageHeroByRoute = ({ title, subtitle, image }) => {
 
 
 export default PageHeroByRoute;
+
