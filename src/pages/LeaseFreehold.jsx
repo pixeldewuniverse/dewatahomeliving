@@ -20,9 +20,9 @@ const LeaseFreehold = () => {
   ];
 
   const listings = [
-    {"type":"Leasehold","title":"Canggu Strategic Location","area":"5 are","price":"IDR 800M","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/listings/canggu.jpg", "map_link": "#"},
-    {"type":"Freehold","title":"Sanur Beachside","area":"8 are","price":"IDR 1.2B","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/listings/sanur.jpg", "map_link": "#"},
-    {"type":"Leasehold","title":"Ubud Rice Field View","area":"12 are","price":"IDR 600M","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/listings/ubud.jpg", "map_link": "#"}
+    {"type":"Leasehold","title":"Canggu Strategic Location","area":"5 are","price":"IDR 800M","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/no image.svg", "map_link": "#"},
+    {"type":"Freehold","title":"Sanur Beachside","area":"8 are","price":"IDR 1.2B","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/no image.svg", "map_link": "#"},
+    {"type":"Leasehold","title":"Ubud Rice Field View","area":"12 are","price":"IDR 600M","img":"https://raw.githubusercontent.com/pixeldewads-digital/DHL/main/assets/no image.svg", "map_link": "#"}
   ];
 
   const filteredListings = activeFilter === 'all' 
@@ -97,7 +97,7 @@ const LeaseFreehold = () => {
                   ))}
                 </div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+              /* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
                 {filteredListings.map((listing, index) => (
                   <motion.div
                     key={index}
@@ -127,7 +127,7 @@ const LeaseFreehold = () => {
                   <Button onClick={handleFeatureNotImplemented} variant="secondary" className="bg-transparent border border-[var(--dewata-gold)] text-[var(--dewata-gold)] hover:bg-[var(--dewata-gold)] hover:text-[#111111] rounded-2xl px-8 py-3 text-lg">
                       View All Listings
                   </Button>
-              </div>
+              </div> 
             </TabsContent>
 
             <TabsContent value="services" className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl py-12 md:py-16">
